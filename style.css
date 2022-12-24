@@ -34,7 +34,6 @@ body{
 
 #fig1:hover{
     background:url('merry-christmas.gif') ;
-    background-size:cover;
 }
 #fig2:hover{
     background: url('its-time-to-celebrate.gif') ;
