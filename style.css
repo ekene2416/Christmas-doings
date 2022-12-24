@@ -1,0 +1,73 @@
+body{
+    background-image: url('christmas-56.gif');
+    text-align: center;
+    background-size: cover;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+    font-family:cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avatar{
+    width:300px;
+    border-radius: 50%;
+    border: #c54245 2px solid;
+    
+}
+.gifts{
+    width: 90%;
+    height: 300px;
+    border: skyblue solid 5px;
+    border-radius: 8px;
+    margin: 20px;
+    background-image: url('button-mouse.gif');
+    background-size: cover;
+}#tag{
+    color: #c54245;
+    text-shadow: 2px 2px 8px black;
+}
+
+#fig1:hover{
+    background:url('merry-christmas.gif') ;
+}
+#fig2:hover{
+    background: url('its-time-to-celebrate.gif') ;
+}
+#fig3:hover{
+    background: url('cheers.gif') ;
+    background-size: cover;
+    transition: transform 2s ease-in-out;
+    transform: scale(1.2);
+}
+#fig4:hover{
+    background: url('celebration.gif') ;
+    background-size: cover;
+    transition: transform 5s ease-in-out;
+    transform: scale(1.2) rotate(10deg);
+    
+}
+.text{
+    background: red;
+    margin: 10px;
+    padding: 2px 5px;
+    border-bottom: 5px solid ghostwhite ;
+    border-radius: 5px;
+    
+}
+.text:hover{
+    transition:transform 20s ease-in-out ;
+    transform: rotate(360deg);
+}
+#wish{
+    font-size: 32px;
+    margin: 10px 5px;
+    margin-top: 10px;
+}
+footer{
+    margin: 20px;
+}
